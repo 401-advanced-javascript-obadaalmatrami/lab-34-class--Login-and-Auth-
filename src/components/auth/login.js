@@ -31,7 +31,7 @@ class Login extends React.Component {
   render() {
     return (
       <>
-        <If condition={this.context.loggedIn}>
+        <If condition={this.context.loggedIn}> 
           <button onClick={this.context.logout}>Log Out!</button>
         </If>
 

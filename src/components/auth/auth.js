@@ -1,5 +1,5 @@
 import React from 'react';
-import { LoginContext } from './context';
+import { LoginContext } from '../auth/context.js';
 
 const If = props => {
   return props.condition ? props.children : null

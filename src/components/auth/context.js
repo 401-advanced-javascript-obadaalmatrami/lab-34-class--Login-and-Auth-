@@ -18,7 +18,7 @@ class LoginProvider extends React.Component {
   }
 
   login = (username, password) => {
-    fetch(`${API}/signin`, {
+    fetch(`https://api-js401.herokuapp.com/signin`, {
       method: 'post',
       mode: 'cors',
       cache: 'no-cache',
